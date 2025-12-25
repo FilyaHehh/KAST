@@ -1,0 +1,13 @@
+.DS_Store
+.thumbs
+yarn-error.log
+/node_modules
+/KAST/*.html
+/KAST/*.css
+/KAST/*.js
+/KAST/*.png
+/KAST/*.jpg
+/KAST/*.jpeg
+/KAST/*.gif
+/KAST/*.svg
+/KAST/*/*.*
