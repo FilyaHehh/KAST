@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KAST</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="images/logo.svg">
     
 </head>
 <body>
@@ -12,7 +13,7 @@
     <div class="navbar__content">
         <div class="nav-right">
             <a class="button" href="#">О нас</a>
-            <a class="button" href="articles.html">Статьи</a>
+            <a class="button" href="catalog.html">Статьи</a>
             <a class="button" href="#">Подборки средств</a>
         </div>
         <img src="images/logo.svg" alt="Логотип KAST">   
@@ -30,7 +31,7 @@
 <div class="content">
     <div class="header">
         <div class="header__details">
-            <h1>Новая уверенность твоих кудрей</h1>
+            <h1 id="home">Новая уверенность твоих кудрей</h1>
             <p>Нормализуем проблемы кудрявых и даём уверенность в их силе.</p>
             <a class="button" href="#">Присоединиться к комьюнити</a>
         </div> 
@@ -45,6 +46,7 @@
         </div>
 
     </div>
+    <div class="articles">
     <div class="new__articles">
             <div class="new__content">
                 <img src="images/about.png">
@@ -60,10 +62,11 @@
                 <h3>Новинки для кудрявых волос 2025: полный обзор</h3>
             </div>
     </div>
+    </div>
 
     <div class="about">
         <div class="mission__title">
-            <h6>[О НАС]</h6>
+            <h6 id="about">[О НАС]</h6>
             <h1>KAST — это место, где мы создаём новую культуру ухода за своими волосами.</h1>
         </div>
     </div>
@@ -106,7 +109,7 @@
 <div class="content">
     <div class="test">
         <div class="test__details">
-            <h6>[ТЕСТЫ]</h6>
+            <h6 id="tests">[ТЕСТЫ]</h6>
             <h1>Пройди быстрые тесты, которые расскажут больше о твоих кудрях и уходе за ними</h1>
         </div>
         <div class="buttons">
@@ -123,11 +126,11 @@
         </div>
 
         <div class="us__footer">
-            <a class="footer__title" href="#">О нас</a>
-            <a class="footer__title" href="#">Статьи</a>
-            <a class="footer__title" href="#">Подборки</a>
-            <a class="footer__title" href="#">Салоны</a>
-            <a class="footer__title" href="#">Тесты</a>
+            <a class="footer__title" href="#about">О нас</a>
+            <a class="footer__title" href="#articles">Статьи</a>
+            <a class="footer__title" href="#compilations">Подборки</a>
+            <a class="footer__title" href="#salons">Салоны</a>
+            <a class="footer__title" href="#tests">Тесты</a>
         </div>
 
         <div class="us__footer">
